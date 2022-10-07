@@ -2,9 +2,16 @@ package calculator.src;
 
 public class calculator{
 
-    /*
+    //constructor
+    public calculator(){
+
+    }
+
+     /**
      * Addition method
-     * @return the sum of x plus y
+     * @param x
+     * @param y
+     * @return x + y
      */
 
     public int addition(int x, int y){
