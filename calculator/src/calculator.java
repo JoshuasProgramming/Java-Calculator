@@ -8,10 +8,22 @@ public class calculator{
      * @param y
      * @return x + y
      */
-    
+
     public int addition(int x, int y){
         System.out.println(x+y);
         return x + y;
+    }
+
+    /**
+     * Subtraction method
+     * @param x
+     * @param y
+     * @return x - y
+     */
+
+    public int subtraction(int x, int y){
+        System.out.println(x - y);
+        return x - y;
     }
 
 }
