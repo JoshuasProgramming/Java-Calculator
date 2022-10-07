@@ -7,8 +7,8 @@ public class calculator{
      * @return the sum of x plus y
      */
 
-     public int addition(int x, int y){
+    public int addition(int x, int y){
         return x + y;
-     }
+    }
 
 }
