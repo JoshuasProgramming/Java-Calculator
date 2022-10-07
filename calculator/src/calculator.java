@@ -10,7 +10,6 @@ public class calculator{
      */
 
     public int addition(int x, int y){
-        System.out.println(x + y);
         return x + y;
     }
 
@@ -22,7 +21,6 @@ public class calculator{
      */
 
     public int subtraction(int x, int y){
-        System.out.println(x - y);
         return x - y;
     }
 
@@ -34,7 +32,6 @@ public class calculator{
      */
 
     public int multiplication(int x, int y){
-        System.out.println(x*y);
         return x*y;
     }
 
@@ -46,7 +43,6 @@ public class calculator{
      */
 
     public int division(int x, int y){
-        System.out.println(x/y);
         return x/y;
     }
 
