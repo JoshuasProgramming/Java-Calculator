@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Enter y: ");
         int y = scan.nextInt();
 
-        System.out.println("1. Add\n2. Subtract\n3. Multiply\n4. 5Divide\n ");
+        System.out.println("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n ");
         int options = scan.nextInt();
 
         switch(options){
