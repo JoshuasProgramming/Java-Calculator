@@ -26,4 +26,16 @@ public class calculator{
         return x - y;
     }
 
+    /**
+     * Multiplication method
+     * @param x
+     * @param y
+     * @return x * y
+     */
+
+     public int Multiplication(int x, int y){
+        System.out.println(x*y);
+        return x*y;
+     }
+
 }
