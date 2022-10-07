@@ -4,11 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         
-        // calculator c = new calculator();
-        // c.addition(10, 1);
-        // c.subtraction(10, 1);
-        // c.multiplication(5, 15);
-        // c.division(5, 37);
+        calculator c = new calculator();
 
         System.out.println("WELCOME TO THE CALCULATOR");
 
@@ -20,7 +16,13 @@ public class Main {
         System.out.println("Enter y: ");
         int y = scan.nextInt();
 
-        
+        System.out.println("1. Add\n2. Subtract\n3. Multiply\n4. 5Divide\n ");
+        int options = scan.nextInt();
+
+        switch(options){
+            case 1:
+                
+        }
 
     }
 }
