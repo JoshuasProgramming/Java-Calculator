@@ -21,8 +21,13 @@ public class Main {
 
         switch(options){
             case 1:
-                
+                c.addition(x, y);
+            case 2:
+                c.subtraction(x, y);
+            case 3:
+                c.multiplication(x, y);
+            case 4:
+                c.division(x, y);
         }
-
     }
 }
