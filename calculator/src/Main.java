@@ -22,12 +22,16 @@ public class Main {
         switch(options){
             case 1:
                 c.addition(x, y);
+                break;
             case 2:
                 c.subtraction(x, y);
+                break;
             case 3:
                 c.multiplication(x, y);
+                break;
             case 4:
                 c.division(x, y);
+                break;
         }
     }
 }
