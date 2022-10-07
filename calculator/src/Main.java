@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
+
+        boolean working = true;
         
         calculator c = new calculator();
 
@@ -16,22 +18,27 @@ public class Main {
         System.out.println("Enter y: ");
         int y = scan.nextInt();
 
-        System.out.println("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n ");
+        System.out.println("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Quit\n");
         int options = scan.nextInt();
 
-        switch(options){
-            case 1:
-                c.addition(x, y);
-                break;
-            case 2:
-                c.subtraction(x, y);
-                break;
-            case 3:
-                c.multiplication(x, y);
-                break;
-            case 4:
-                c.division(x, y);
-                break;
+        while(working){
+            switch(options){
+                case 1:
+                    System.out.println("Answer: " + c.addition(x, y));
+                    break;
+                case 2:
+                    System.out.println("Answer: " + c.subtraction(x, y));
+                    break;
+                case 3:
+                    System.out.println("Answer: " + c.multiplication(x, y));
+                    break;
+                case 4:
+                    System.out.println("Answer: " + c.division(x, y));
+                    break;
+                case 5: 
+                    working = false;
+            }
         }
+        
     }
 }
