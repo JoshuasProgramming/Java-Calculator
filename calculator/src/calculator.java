@@ -33,9 +33,21 @@ public class calculator{
      * @return x * y
      */
 
-    public int Multiplication(int x, int y){
+    public int multiplication(int x, int y){
         System.out.println(x*y);
         return x*y;
+    }
+
+    /**
+     * Division method
+     * @param x
+     * @param y
+     * @return x / y
+     */
+
+    public int division(int x, int y){
+        System.out.println(x / y);
+        return x/y;
     }
 
 }

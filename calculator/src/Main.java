@@ -7,6 +7,7 @@ public class Main {
         calculator c = new calculator();
         c.addition(10, 1);
         c.subtraction(10, 1);
-        c.Multiplication(5, 15);
+        c.multiplication(5, 15);
+        c.division(15, 5);
     }
 }
